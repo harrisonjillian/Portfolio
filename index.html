@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0069a7a1af.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+
+    <div class="landing">
+        <div class="textimage">
+            <h1>Jillian Harrison</h1>
+            <h2>Software Development</h2>
+        </div>
+        <img src="Assets/Desk.jpg" alt="deskpic">
+    </div>
+
+
+    <section class="container">
+        <div class="aboutbarcolumn1" id="about">
+            <h1>About</h1>
+        </div>
+
+        <div class="piccolumn2">
+            <img src="Assets/SuzyQ.jpg" id="pic" alt="Jill">
+        </div>
+
+        <div class="bio">
+            A little bit about myself. I am a Purdue University Graduate (Boiler Up!)
+            with a degree in Hospitality and Tourism Management. I have worked in the hotel industry
+            for the past decade. I currently am a Sales Account Manager that oversees the business travel,
+            athletic, association, fraternal, medical and entertainment markets for a full service 263 guestroom hotel.
+            I have always enjoyed and am passionate about collaborating with others to develop the best possible
+            solutions
+            for my clients. I thrive on communication, have great time management skills and adjust to various
+            situations quickly.
+            Software development is always something I have been interested in and 2020 is the year I decided to take
+            the leap and
+            immerse myself in all things coding. I have thoroughly enjoyed this as my skillset aligns extremely well. As
+            the
+            saying goes, time really does fly by when you are having fun.
+        </div>
+
+        <div class="column">
+            <div id="row">
+                <a href="https://www.linkedin.com/in/jillianharrison" class="animation" target="_blank">
+                    <i class="fab fa-linkedin" style="color:black"></i>
+                </a>
+                <a href="Assets/Jill Harrison Resume 2020.docx" class="animation" id="resume">Resume</a>
+                <a href="https://github.com/harrisonjillian" class="animation">
+                    <i class="fab fa-github-square" style="color:black"></i>
+                </a>
+            </div>
+    </section>
+
+    <section class="skills1">
+    <div class="skills">
+        <h1>Skills</h1>
+        <div class="skillsrow">
+            <i class="fab fa-github-square" class="transform" id="git" style="color:black"><br>Github</i>
+        </div>
+
+        <div class="skillsrow">
+            <i class="fas fa-laptop-code" class="transform"><br>HTML<br>CSS</i>
+        </div>
+
+        <div class="skillsrow">
+            <i class="fas fa-desktop" class="transform"><br>C#</i>
+        </div>
+
+    </div>
+</section>
+
+    <div class="link" id="portfolio">
+        <section id="main">
+            <h1>Portfolio</h1>
+
+            <div class="panel">
+                <img src="Assets/storefront.jpg" alt="building" class="port">
+                <a href="https://harrisonjillian.github.io/staticstorefront/" target="_blank" class="button">View
+                    Static<br>Layout Project</a>
+
+            </div>
+            <div class="panel">
+                <img src="Assets/Bumblebee.jpg" alt="bee" class="port">
+                <a href="https://codepen.io/harrisonjillian/pen/poyyzqM" target="_blank" class="button">View
+                    Creature<br>Layout Project</a>
+
+            </div>
+
+            <div class="panel">
+                <img src="Assets/bakery.jpg" alt = "cupcakes" class="port">
+                <a href="https://harrisonjillian.github.io/RegisterPage/" target="_blank" class="button">View
+                    Business<br>Challenge Project</a>
+            </div>
+
+            <div class="panel1">
+                <img src="Assets/blue.jpg" alt="bluebox" class="port">
+                <a href="#" class="button">Red Badge<br>Coming Soon</a>
+            </div>
+
+            <div class="panel1">
+                <img src="Assets/red.jpg" alt="redbox" class="port">
+                <a href="#" class="button">Red Badge<br>Coming Soon</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="contactcontainer">
+            <form action="https://formspree.io/mbjzobjd" method="POST">
+                <div class="forminfo">
+                    <input type="text" id="name" name="name" placeholder="Your Name...">
+                </div>
+                <div class="forminfo">
+                    <input type="email" id="email" name="_replyto" placeholder="Email Address...">
+                </div>
+                <div class="forminfo">
+                    <input type="phone" id="phone" name="phone" placeholder="Phone Number...">
+                </div>
+                <div class="forminfo">
+                    <textarea id="message" name="message" placeholder="Place Message Here..."></textarea>
+                </div>
+                <div class="forminfo">
+                    <input type="submit" id="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <span>&copy; 2020, Jillian Harrison</span>
+        <ul id="menuFooter">
+            <li><a href="#">All Rights Reserved</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
