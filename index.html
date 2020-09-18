@@ -6,148 +6,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/0069a7a1af.js" crossorigin="anonymous"></script>
-
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div id="navbar">
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+
+    <div class="col-1 col-s-1">
+        <div id="navbar">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
-
-
 
     <div class="landing">
-        <div class="textimage">
-            <h1>Jillian Harrison</h1>
-            <h2>Software Development</h2>
+        <div class="col-17 col-s-17">
+            <h1 style="font-size: 5vw;">Jillian Harrison</h1>
+            <h3 style="font-size: 4vw;">Software Development</h3>
         </div>
-        <img src="Assets/Desk.jpg" alt="deskpic">
+        <img src="Assets/Desk.jpg" height=75%; width=100%;>
     </div>
 
+    <div class="col-5 col-s-5" id="about">
+        <h1 style="font-size: 5vw;">About</h1>
+    </div>
 
-    <section class="container">
-        <div class="aboutbarcolumn1" id="about">
-            <h1>About</h1>
-        </div>
+    <div class="bio">
+        <div class="col-3 col-s-3">
+            <p style="font-size: 1.5vw;">A little bit about myself. I am a Purdue University Graduate (Boiler Up!)
+                with a degree in Hospitality and Tourism Management. I have worked in the hotel industry
+                for the past decade. I currently am a Sales Account Manager that oversees the business travel,
+                athletic, association, fraternal, medical and entertainment markets for a full service 263 guestroom
+                hotel.
+                I have always enjoyed and am passionate about collaborating with others to develop the best possible
+                solutions
+                for my clients. I thrive on communication, have great time management skills and adjust to various
+                situations quickly.
+                Software development is always something I have been interested in and 2020 is the year I decided to
+                take
+                the leap and
+                immerse myself in all things coding. I have thoroughly enjoyed this as my skillset aligns extremely
+                well. As
+                the
+                saying goes, time really does fly by when you are having fun.</p>
 
-        <div class="piccolumn2">
-            <img src="Assets/SuzyQ.jpg" id="pic" alt="Jill">
-        </div>
-
-        <div class="bio">
-            A little bit about myself. I am a Purdue University Graduate (Boiler Up!)
-            with a degree in Hospitality and Tourism Management. I have worked in the hotel industry
-            for the past decade. I currently am a Sales Account Manager that oversees the business travel,
-            athletic, association, fraternal, medical and entertainment markets for a full service 263 guestroom hotel.
-            I have always enjoyed and am passionate about collaborating with others to develop the best possible
-            solutions
-            for my clients. I thrive on communication, have great time management skills and adjust to various
-            situations quickly.
-            Software development is always something I have been interested in and 2020 is the year I decided to take
-            the leap and
-            immerse myself in all things coding. I have thoroughly enjoyed this as my skillset aligns extremely well. As
-            the
-            saying goes, time really does fly by when you are having fun.
-        </div>
-
-        <div class="column">
-            <div id="row">
-                <a href="https://www.linkedin.com/in/jillianharrison" class="animation" target="_blank">
-                    <i class="fab fa-linkedin" style="color:black"></i>
-                </a>
-                <a href="Assets/Jill Harrison Resume 2020.docx" class="animation" id="resume">Resume</a>
-                <a href="https://github.com/harrisonjillian" class="animation">
-                    <i class="fab fa-github-square" style="color:black"></i>
-                </a>
+            <div class="aboutinfo">
+                <div class="col-2 col-s-2">
+                    <a href="https://www.linkedin.com/in/jillianharrison" class="animation" target="_blank">
+                        <i class="fab fa-linkedin fa-5x" id="linkedin" style="color:black"></i>
+                    </a>
+                </div>
+                <div class="col-18 col-s-18">
+                    <a href="Assets/Jill Harrison Resume 2020.docx" class="animation" id="resume"><b>Resume</b></a>
+                </div>
+                <div class="col-19 col-s-19">
+                    <a href="https://github.com/harrisonjillian" class="animation" target="_blank">
+                        <i class="fab fa-github-square fa-5x" style="color:black"></i>
+                    </a>
+                </div>
             </div>
-    </section>
+        </div>
+        <div class="pic">
+            <div class="col-4 col-s-4">
+                <img src="Assets/SuzyQ.jpg" height="100%" ; width="100%" ; id="pic" alt="Jill">
+            </div>
+        </div>
+    </div>
 
-    <section class="skills1">
+    <div class="col-7 col-s-7">
+            <h1 style="font-size: 5vw;">Skills</h1>
+    </div>
+
     <div class="skills">
-        <h1>Skills</h1>
-        <div class="skillsrow">
-            <i class="fab fa-github-square" class="transform" id="git" style="color:black"><br>Github</i>
+        <div class="col-6 col-s-6">
+            <i class="fab fa-github-square fa-4x" class="transform" id="git" style="color:black"><br>Github</i>
         </div>
 
-        <div class="skillsrow">
-            <i class="fas fa-laptop-code" class="transform"><br>HTML<br>CSS</i>
+        <div class="col-20 col-s-20">
+            <i class="fas fa-laptop-code fa-4x" class="transform"><br>HTML<br>CSS</i>
         </div>
 
-        <div class="skillsrow">
-            <i class="fas fa-desktop" class="transform"><br>C#</i>
+        <div class="col-21 col-s-21">
+            <i class="fas fa-desktop fa-4x" class="transform"><br>C#</i>
         </div>
-
     </div>
-</section>
 
-    <div class="link" id="portfolio">
-        <section id="main">
-            <h1>Portfolio</h1>
+    <div class="col-8 col-s-8" id="portfolio">
+        <h1 style="font-size: 5vw;">Portfolio</h1>
+    </div>
 
-            <div class="panel">
-                <img src="Assets/storefront.jpg" alt="building" class="port">
-                <a href="https://harrisonjillian.github.io/staticstorefront/" target="_blank" class="button">View
-                    Static<br>Layout Project</a>
+    <div class="portfolio">
+        <div class="col-9 col-s-9">
+            <img src="Assets/storefront.jpg" height=200px; width=300px; alt="building">
+            <a href="https://harrisonjillian.github.io/staticstorefront/" target="_blank" class="button">
+                <p style="font-size: 1vw" ;>View
+                    Static<br>Layout Project</p>
+            </a>
+        </div>
+        <div class="col-10 col-s-10">
+            <img src="Assets/Bumblebee.jpg" height=200px; width=300px; alt="bee">
+            <a href="https://codepen.io/harrisonjillian/pen/poyyzqM" target="_blank" class="button">
+                <p style="font-size: 1vw" ;>View
+                    Creature<br>Layout Project</p>
+            </a>
+        </div>
+        <div class="col-11 col-s-11">
+            <img src="Assets/bakery.jpg" height=200px; width=300px; alt="cupcakes">
+            <a href="https://harrisonjillian.github.io/RegisterPage/" target="_blank" class="button">
+                <p style="font-size: 1vw" ;>View
+                    Business<br>Challenge Project</p>
+            </a>
+        </div>
+        <div class="col-12 col-s-12">
+            <img src="Assets/blue.jpg" height=200px; width=300px; alt="bluebox">
+            <a href="#" class="button">
+                <p style="font-size: 1vw" ;>Blue Badge<br>Coming Soon</p>
+            </a>
+        </div>
+        <div class="col-13 col-s-13">
+            <img src="Assets/red.jpg" height=200px; width=300px; alt="redbox">
+            <a href="#" class="button">
+                <p style="font-size: 1vw" ;>Red Badge<br>Coming Soon</p>
+            </a>
+        </div>
+    </div>
 
-            </div>
-            <div class="panel">
-                <img src="Assets/Bumblebee.jpg" alt="bee" class="port">
-                <a href="https://codepen.io/harrisonjillian/pen/poyyzqM" target="_blank" class="button">View
-                    Creature<br>Layout Project</a>
-
-            </div>
-
-            <div class="panel">
-                <img src="Assets/bakery.jpg" alt = "cupcakes" class="port">
-                <a href="https://harrisonjillian.github.io/RegisterPage/" target="_blank" class="button">View
-                    Business<br>Challenge Project</a>
-            </div>
-
-            <div class="panel1">
-                <img src="Assets/blue.jpg" alt="bluebox" class="port">
-                <a href="#" class="button">Blue Badge<br>Coming Soon</a>
-            </div>
-
-            <div class="panel1">
-                <img src="Assets/red.jpg" alt="redbox" class="port">
-                <a href="#" class="button">Red Badge<br>Coming Soon</a>
-            </div>
-        </section>
+    <div class="col-14 col-s-14" id="contact">
+        <h1 style="font-size: 5vw;">Contact</h1>
     </div>
 
     <div class="contact" id="contact">
-        <h1>Contact</h1>
-        <div class="contactcontainer">
+        <div class="col-15 col-s-15">
             <form action="https://formspree.io/mbjzobjd" method="POST">
                 <div class="forminfo">
-                    <input type="text" id="name" name="name" placeholder="Your Name...">
+                    <input type="text" id="name" name="name" placeholder="Your Name..." p style="font-size: 2vw" ;>
                 </div>
                 <div class="forminfo">
-                    <input type="email" id="email" name="_replyto" placeholder="Email Address...">
+                    <input type="email" id="email" name="_replyto" placeholder="Email Address..." p
+                        style="font-size: 2vw" ;>
                 </div>
                 <div class="forminfo">
-                    <input type="phone" id="phone" name="phone" placeholder="Phone Number...">
+                    <input type="phone" id="phone" name="phone" placeholder="Phone Number..." p style="font-size: 2vw"
+                        ;>
                 </div>
                 <div class="forminfo">
-                    <textarea id="message" name="message" placeholder="Place Message Here..."></textarea>
+                    <textarea id="message" name="message" placeholder="Place Message Here..." p style="font-size: 2vw"
+                        ;></textarea>
                 </div>
                 <div class="forminfo">
-                    <input type="submit" id="submit" value="Send">
+                    <input type="submit" id="submit" value="Send" p style="font-size: 2vw" ;>
                 </div>
             </form>
         </div>
     </div>
 
     <footer>
-        <span>&copy; 2020, Jillian Harrison</span>
-        <ul id="menuFooter">
-            <li><a href="#">All Rights Reserved</a></li>
-        </ul>
+        <div class="col-16 col-s-16">
+            <span>&copy;2020, Jillian Harrison</span>
+            <ul id="menuFooter">
+                <li><a href="#">All Rights Reserved</a></li>
+            </ul>
+        </div>
     </footer>
-
 </body>
-
 </html>
